@@ -20,7 +20,7 @@ function Home() {
 
              <div className=' my-6   mx-auto w-3/4 max-sm:w-4/5  '>
                 <img
-                 src='../public/imgs/homePic (2).PNG' 
+                 src='https://themewagon.com/wp-content/uploads/2023/06/sneatVue.png' 
                   alt="" 
                   className='img-shadow mx-auto w-3/4  object-center'
                  
@@ -43,7 +43,7 @@ function Home() {
 
    </div>
    <div className='w-[45%] max-sm:w-[100%]  h-full img-shadow'>
-    <img src="../public/imgs/homePic (2).PNG" alt="" />
+    <img src="https://themewagon.com/wp-content/uploads/2023/06/sneatVue.png" alt="" />
   
 
    </div>

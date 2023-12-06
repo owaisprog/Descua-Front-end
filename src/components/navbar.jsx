@@ -14,7 +14,7 @@ function navbar() {
       <div className=" max-w-screen-xl mx-auto px-4 xl:px-0 relative">
         <div
           className={` absolute w-[40%]  top-[100%]  duration-300  transition-all ease-in-out ${
-            openHamburger ? "right-[-70%] " : "right-[0%]  "
+            openHamburger ? "right-[-300%] " : "right-[0%]  "
           }`}
         >
           <div className="flex flex-col text-center  font-semibold space-y-6 py-4 h-[41vh] boroder   text-lg text-black bg-white ">
@@ -69,7 +69,7 @@ function navbar() {
           <GiHamburgerMenu
             onClick={handleHamburger}
             size={28}
-            className="my-1 md:hidden"
+            className="my-1 md:hidden cursor-pointer"
           />
         </div>
       </div>

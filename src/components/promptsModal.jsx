@@ -40,8 +40,8 @@ function PromptsModal(props) {
        throw new Error('Network response was not ok');
      }
 
-     const data = await response.json();
-     console.log("Success:", data);
+    //  const data = await response.json();
+    //  console.log("Success:", data);
      state(closeModal)
      // Handle the success response here (if needed)
    } catch (error) {
@@ -69,7 +69,7 @@ function PromptsModal(props) {
              </div>
 
              <h1 className="text-2xl font-semibold text-center">
-               Create New Category
+               Create New Prompts
              </h1>
 
              <form onSubmit={handlePostRequest} className="my-8">

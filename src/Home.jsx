@@ -18,7 +18,7 @@ function Home() {
             <h1 className= ' w-2/5 max-sm:w-full text-6xl max-xl:text-4xl  max-lg:text-3xl my-auto  xl  mx-auto text-center '>The Easiest Way to find your Documents</h1>
              <h2 className=' w-2/5 max-sm:w-4/5 mx-auto max-md:hidden  font-semibold my-7'>Skyrocket your online store conversion rate and improve the customer journey with smart online visual merchanding.</h2>
 
-             <div className=' my-6   mx-auto w-3/4 max-sm:w-4/5  '>
+             <div className=' my-6 max-w-screen-xl mx-auto px-4 xl:px-0   w-3/4 max-sm:w-4/5  '>
                 <img
                  src='https://themewagon.com/wp-content/uploads/2023/06/sneatVue.png' 
                   alt="" 

@@ -54,7 +54,7 @@ function category() {
         setCategoryData(data);
         setGetData(!getData);
       } catch (error) {
-        console.log(`error occured :${error}`);
+        // console.log(`error occured :${error}`);
       }
     };
 
@@ -80,12 +80,12 @@ function category() {
         );
         notify()
 
-        console.log("Record deleted successfully");
+        // console.log("Record deleted successfully");
       } else {
-        console.error("Failed to delete record");
+        // console.error("Failed to delete record");
       }
     } catch (error) {
-      console.error("Error during delete operation:", error);
+      // console.error("Error during delete operation:", error);
     }
   };
 
@@ -97,9 +97,9 @@ function category() {
         );
         const data = await response.json();
         setRecords(data);
-        console.log(`MY data :!!!!!!!!!!!!!!!!!!!! ${data}`);
+        // console.log(`MY data :!!!!!!!!!!!!!!!!!!!! ${data}`);
       } catch (error) {
-        console.log(`An fetching error occured: ${error}`);
+        // console.log(`An fetching error occured: ${error}`);
       }
     };
     fetchData();

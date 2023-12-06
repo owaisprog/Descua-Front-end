@@ -26,7 +26,7 @@ function CategoryEditModal(props) {
         setEnries(entries); // Fix the typo in your variable name (setEnries to setEntries)
         setDescription(description);
       }catch(error){
-      console.log(`error in fetching data: ${error}`)
+      // console.log(`error in fetching data: ${error}`)
       }
      }
      fetchData()
@@ -53,7 +53,7 @@ function CategoryEditModal(props) {
 
       })
       if(response.ok){
-        console.log("Category data updated")
+        // console.log("Category data updated")
         CloseEditModal(EditState)
       }
     }catch(error){
@@ -79,7 +79,7 @@ function CategoryEditModal(props) {
               </div>
 
               <h1 className="text-2xl font-semibold text-center">
-                Create New Category
+                Edit Category
               </h1>
               <form onSubmit={handleEditSubmit} className="my-8">
                 <div className="flex flex-col gap-y-3 ">

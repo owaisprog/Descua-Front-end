@@ -9,11 +9,6 @@ function PropmtsEditModal(props) {
   const [date, setDate] = useState('')
  
 
-  // useEffect(()=>{
-  //   if(EditState){
-
-  //   }
-  // },[EditState, ID])
   
 
   useEffect(()=>{
@@ -24,7 +19,7 @@ function PropmtsEditModal(props) {
         const { description, statement, date } = data;
 
         setDescription(description);
-        setStatement(statement); // Fix the typo in your variable name (setEnries to setEntries)
+        setStatement(statement);
         setDate(date);
       }catch(error){
       console.log(`error in fetching data: ${error}`)
@@ -54,11 +49,11 @@ function PropmtsEditModal(props) {
 
       })
       if(response.ok){
-        console.log("Category data updated")
+        // console.log("Category data updated")
         CloseEditModal(EditState)
       }
     }catch(error){
-   console.log(`data not updated successfully : ${error}`)
+  //  console.log(`data not updated successfully : ${error}`)
     }
   }
 
@@ -80,7 +75,7 @@ function PropmtsEditModal(props) {
               </div>
 
               <h1 className="text-2xl font-semibold text-center">
-                Create New Category
+                Edit Prompts
               </h1>
               <form onSubmit={handleEditSubmit} className="my-8">
                 <div className="flex flex-col gap-y-3 ">

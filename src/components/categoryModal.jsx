@@ -38,14 +38,11 @@ function CategoryModal(props) {
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
-
-      const data = await response.json();
-      console.log("Success:", data);
+      // const data = await response.json();
+      // console.log("Success:", data);
       state(closeModal)
-      // Handle the success response here (if needed)
     } catch (error) {
       console.error("Error:", error);
-      // Handle errors here
     }
   };
 

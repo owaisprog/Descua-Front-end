@@ -58,7 +58,7 @@ function Prompts() {
         setCategoryData(data);
         setGetData(!getData);
       } catch (error) {
-        console.log(`error occured :${error}`);
+        // console.log(`error occured :${error}`);
       }
     };
 
@@ -82,12 +82,12 @@ function Prompts() {
           prevRecords.filter((record) => record.id !== itemId)
         );
         notify()
-        console.log("Record deleted successfully");
+        // console.log("Record deleted successfully");
       } else {
-        console.error("Failed to delete record");
+        // console.error("Failed to delete record");
       }
     } catch (error) {
-      console.error("Error during delete operation:", error);
+      // console.error("Error during delete operation:", error);
     }
   };
 
@@ -101,9 +101,9 @@ function Prompts() {
         );
         const data = await response.json();
         setRecords(data);
-        console.log(`MY data :!!!!!!!!!!!!!!!!!!!! ${data}`);
+        // console.log(`MY data :!!!!!!!!!!!!!!!!!!!! ${data}`);
       } catch (error) {
-        console.log(`An fetching error occured: ${error}`);
+        // console.log(`An fetching error occured: ${error}`);
       }
     };
     fetchData();

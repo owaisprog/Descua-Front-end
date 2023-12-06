@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    background: linear-gradient(186deg, rgba(189,191,255,1) 0%, rgba(235,219,255,1) 100%);
+
+}
+
+
+.img-shadow{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.banner{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.sideSection{
+  height: 75vh;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+
+
+
+.modal-wrappper{
+    transition: all 1s ease-in-out;
+}
+
+.modal-wrappper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+    
+.modal-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

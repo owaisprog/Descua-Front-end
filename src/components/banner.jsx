@@ -1,0 +1,27 @@
+import React from 'react'
+
+function Banner() {
+  return (
+    <div className='banner max-w-screen-xl my-10 mx-auto px-4 xl:px-0 py-5  '>
+        
+     <div className='text-2xl font-bold text-gray-800 text-center '><h1>Trusted by over 47k+ happy customer including</h1></div>
+
+     <div className=' px-2 flex flex-wrap mx-auto justify-center my-8  gap-28 text-center  '>
+        <img src="data:image/png;base64,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" className='h-28 ' alt="" />
+
+   
+     <img src='https://www.davemanuel.com/images/netflix_logo_on_white.jpg' className='h-28' alt="" />
+   
+     <img src="https://helios-i.mashable.com/imagery/articles/047UsVLCrupUmmsuitpn1nw/hero-image.fill.size_1248x702.v1623374965.png" className='h-28' alt="" />
+ 
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgDU1b9J2uRl7DCBNinisiusfLIx9_K-qYg1PxkU-4w&s" className='h-28'  alt="" />
+
+    <img src="https://i.pinimg.com/originals/1a/dd/e8/1adde8bf514c8868d662ac5897891417.jpg"  className='h-28' alt="" />
+
+     </div>
+
+    </div>
+  )
+}
+
+export default Banner
